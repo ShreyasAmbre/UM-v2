@@ -5,4 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './login.component.html',
   styleUrl: './login.component.less',
 })
+
 export class LoginComponent {}
