@@ -22,7 +22,10 @@
             "input": "apps/core/public"
           }
         ],
-        "styles": ["apps/core//src/styles.less"],
+        "styles": [
+          "apps/core//src/styles.less",
+          "node_modules/ng-zorro-antd/ng-zorro-antd.min.css"
+        ],
         "scripts": [],
         "customWebpackConfig": {
           "path": "apps/core/webpack.config.ts"
